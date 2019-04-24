@@ -1,0 +1,6 @@
+function setPicker() {
+    $("#datepicker").datepicker(
+
+    );
+};
+

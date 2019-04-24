@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="02.restful-web-services">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/02.restful-web-services/backup03-after-two-retrieve-user-services.zip!/" />
+      <root url="jar://$PROJECT_DIR$/02.restful-web-services/backup08-completed-filtering.zip!/" />
+      <root url="jar://$PROJECT_DIR$/02.restful-web-services/backup09-z-completed-security.zip!/" />
+      <root url="jar://$PROJECT_DIR$/02.restful-web-services/code-21July2017.zip!/" />
+      <root url="jar://$PROJECT_DIR$/02.restful-web-services/backup01-after-creating-project.zip!/" />
+      <root url="jar://$PROJECT_DIR$/02.restful-web-services/backup09-completed-versioning.zip!/" />
+      <root url="jar://$PROJECT_DIR$/02.restful-web-services/backup11-added-create-post-resource.zip!/" />
+      <root url="jar://$PROJECT_DIR$/02.restful-web-services/backup05-after-creating-delete-method-on-user-resource.zip!/" />
+      <root url="jar://$PROJECT_DIR$/02.restful-web-services/backup12-migrated-to-jpa.zip!/" />
+      <root url="jar://$PROJECT_DIR$/02.restful-web-services/backup06-after-implementing-validation.zip!/" />
+      <root url="jar://$PROJECT_DIR$/02.restful-web-services/backup07-improving-documentation-with-swagger.zip!/" />
+      <root url="jar://$PROJECT_DIR$/02.restful-web-services/backup04-basic-create-service.zip!/" />
+      <root url="jar://$PROJECT_DIR$/02.restful-web-services/backup02-after-hello-world-path-param.zip!/" />
+      <root url="jar://$PROJECT_DIR$/02.restful-web-services/backup10-configure-jpa-and-repository.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

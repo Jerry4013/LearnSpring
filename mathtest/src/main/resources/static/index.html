@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html ng-app="question">
+<head>
+    <title>question</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+    <script src="mathtest.js"></script>
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+</head>
+
+<body>
+<div>
+<!--    <h1 id="operand1"></h1>-->
+<!--    <h1 id="operator"></h1>-->
+<!--    <h1 id="operand2"></h1>-->
+<!--    <h1>=</h1>-->
+    <div ng-controller="mathtest">
+
+        <h1 class="mt-5 text-center">{{question.operand1}} {{question.operator}} {{question.operand2}} = {{ question.answer
+            }}</h1>
+
+        <div class="card my-5">
+            <div class="card-body">
+                <table class="table table-bordered table-striped">
+                    <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">First Operand</th>
+                        <th scope="col">Operator</th>
+                        <th scope="col">Second Operand</th>
+                        <th scope="col"></th>
+                        <th scope="col">Answer</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr style="font-size: large" *ngFor="let user of users">
+                        <td>{{ question.operand1 }}</td>
+                        <td>{{ question.operator }}</td>
+                        <td>{{ question.operand2 }}</td>
+                        <td> = </td>
+                        <td>
+                            <input class="form-control" type="text" ng-model="question.answer"
+                                   ng-keypress="myKeyup($event, question)">
+                            <button ng-click="checkAnswer(question)" type="submit" class="btn btn-primary mt-2">
+                                Submit</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <p style="font-size: large">{{ msg }}</p>
+                <button ng-click="tryAgain()" type="submit" class="btn btn-primary mt-2">
+                    Try next</button>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>

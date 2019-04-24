@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringBasic.iml" filepath="$PROJECT_DIR$/SpringBasic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class003/class003.iml" filepath="$PROJECT_DIR$/class003/class003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class005/class005.iml" filepath="$PROJECT_DIR$/class005/class005.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class013/class013.iml" filepath="$PROJECT_DIR$/class013/class013.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class014/class014.iml" filepath="$PROJECT_DIR$/class014/class014.iml" />
+    </modules>
+  </component>
+</project>

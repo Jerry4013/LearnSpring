@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8" />
+    <title>Calculator</title>
+</head>
+<body>
+<h1>Calculator</h1>
+
+
+
+
+<form action="/calculator" method="post" th:object="${calculator}">
+    <h1 th:text="  ${calculator.operand1}  "></h1>
+    <h1 th:text="  ${calculator.operator}  "></h1>
+    <h1 th:text="  ${calculator.operand2}  "></h1>
+    <h1> = </h1>
+    <h1 th:text="  ${calculator.result}  "></h1>
+
+    <input th:field="  ${calculator.operand1}  ">
+    <input th:field="  ${calculator.operator}  ">
+    <input th:field="  ${calculator.operand2}  ">
+    <span>  =  </span>
+    <input th:field="  ${calculator.result}  ">
+    <button>calculate</button>
+</form>
+</body>
+</html>
