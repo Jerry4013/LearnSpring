@@ -2,19 +2,34 @@ package jerry.mathtest;
 
 import org.springframework.stereotype.Repository;
 
-//@Repository
+import javax.annotation.PostConstruct;
+import java.util.Random;
+
+@Repository
 public class Question {
 
+    Random random = new Random();
     private int operand1;
     private int operand2;
     private String operator;
-    private int answer;
-    private String result;
 
-    public Question(int operand1, int operand2, String operator) {
-        this.operator = operator;
-        this.operand1 = operand1;
-        this.operand2 = operand2;
+    public Question() {
+        this.onInit();
+    }
+
+    @PostConstruct
+    public void onInit() {
+        operator = randomOperator();
+        if (operator.equals("*")){
+            operand1 = random.nextInt(15) + 1;
+            operand2 = random.nextInt(15) + 1;
+        } else if (operator.equals("/")){
+            operand2 = random.nextInt(10) + 1;
+            operand1 = operand2 * (random.nextInt(10) + 1);
+        } else {
+            operand1 = random.nextInt(100) + 1;
+            operand2 = random.nextInt(100) + 1;
+        }
     }
 
     public String getOperator() {
@@ -41,19 +56,22 @@ public class Question {
         this.operator = operator;
     }
 
-    public int getAnswer() {
-        return answer;
-    }
-
-    public void setAnswer(int answer) {
-        this.answer = answer;
-    }
-
-    public String getResult() {
+    private String randomOperator(){
+        String result = null;
+        switch (random.nextInt(4)){
+            case 0:
+                result = "+";
+                break;
+            case 1:
+                result = "-";
+                break;
+            case 2:
+                result = "*";
+                break;
+            case 3:
+                result = "/";
+                break;
+        }
         return result;
-    }
-
-    public void setResult(String result) {
-        this.result = result;
     }
 }

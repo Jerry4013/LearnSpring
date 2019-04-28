@@ -13,13 +13,9 @@
 
 <body>
 <div>
-<!--    <h1 id="operand1"></h1>-->
-<!--    <h1 id="operator"></h1>-->
-<!--    <h1 id="operand2"></h1>-->
-<!--    <h1>=</h1>-->
     <div ng-controller="mathtest">
 
-        <h1 class="mt-5 text-center">{{question.operand1}} {{question.operator}} {{question.operand2}} = {{ question.answer
+        <h1 class="mt-5 text-center">{{question.operand1}} {{question.operator}} {{question.operand2}} = {{ answer
             }}</h1>
 
         <div class="card my-5">
@@ -41,9 +37,9 @@
                         <td>{{ question.operand2 }}</td>
                         <td> = </td>
                         <td>
-                            <input class="form-control" type="text" ng-model="question.answer"
+                            <input class="form-control" type="text" ng-model="answer"
                                    ng-keypress="myKeyup($event, question)">
-                            <button ng-click="checkAnswer(question)" type="submit" class="btn btn-primary mt-2">
+                            <button ng-click="checkAnswer()" type="submit" class="btn btn-primary mt-2">
                                 Submit</button>
                         </td>
                     </tr>

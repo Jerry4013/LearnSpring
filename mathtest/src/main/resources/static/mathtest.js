@@ -1,13 +1,4 @@
 
-// $(document).ready(function() {
-//     $.ajax({
-//         url: "http://localhost:8080/question"
-//     }).then(function(data) {
-//         $('#operand1').text(data.operand1);
-//         $('#operand2').text(data.operand2);
-//         $('#operator').text(data.operator);
-//     });
-// });
 
 var app = angular.module('question', []);
 app.controller('mathtest', function($scope, $http) {
@@ -17,14 +8,19 @@ app.controller('mathtest', function($scope, $http) {
         $scope.question = response.data;
     });
 
-    $scope.checkAnswer = function (question) {
+    $scope.answer = null;
 
-        $http.post('http://localhost:8080/answer', JSON.stringify(question))
+    $scope.checkAnswer = function () {
+        var x = 2;
+        $http.post('http://localhost:8080/answer', $scope.answer)
             .then(function (response) {
-                    $scope.question = response.data;
-                    if ($scope.question.result === "correct")
+                    $scope.result = response.data;
+                    if ($scope.result.result === "correct")
                         $scope.msg = "Congratulations!";
-                    else $scope.msg = "incorrect. Try again";
+                    else if ($scope.result.result === "incorrect")
+                        $scope.msg = "incorrect. Try again";
+                    else if ($scope.result.result === "wrongFormat")
+                        $scope.msg = "Wrong Format. Please enter a number";
                 },
                 function (response) {
                     $scope.msg = "Service not Exists";
@@ -35,7 +31,8 @@ app.controller('mathtest', function($scope, $http) {
 
     $scope.tryAgain = function () {
         $scope.msg = null;
-        $http.get('http://localhost:8080/question').
+        $scope.answer = null;
+        $http.get('http://localhost:8080/next').
         then(function(response) {
             $scope.question = response.data;
         });
