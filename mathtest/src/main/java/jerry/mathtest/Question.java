@@ -2,7 +2,6 @@ package jerry.mathtest;
 
 import org.springframework.stereotype.Repository;
 
-import javax.annotation.PostConstruct;
 import java.util.Random;
 
 @Repository
@@ -14,11 +13,6 @@ public class Question {
     private String operator;
 
     public Question() {
-        this.onInit();
-    }
-
-    @PostConstruct
-    public void onInit() {
         operator = randomOperator();
         if (operator.equals("*")){
             operand1 = random.nextInt(15) + 1;
