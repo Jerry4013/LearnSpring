@@ -5,8 +5,13 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBasic.iml" filepath="$PROJECT_DIR$/SpringBasic.iml" />
       <module fileurl="file://$PROJECT_DIR$/class003/class003.iml" filepath="$PROJECT_DIR$/class003/class003.iml" />
       <module fileurl="file://$PROJECT_DIR$/class005/class005.iml" filepath="$PROJECT_DIR$/class005/class005.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class007/class007.iml" filepath="$PROJECT_DIR$/class007/class007.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class008/class008.iml" filepath="$PROJECT_DIR$/class008/class008.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class010/class010.iml" filepath="$PROJECT_DIR$/class010/class010.iml" />
       <module fileurl="file://$PROJECT_DIR$/class013/class013.iml" filepath="$PROJECT_DIR$/class013/class013.iml" />
       <module fileurl="file://$PROJECT_DIR$/class014/class014.iml" filepath="$PROJECT_DIR$/class014/class014.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class015/class015.iml" filepath="$PROJECT_DIR$/class015/class015.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class017/class017.iml" filepath="$PROJECT_DIR$/class017/class017.iml" />
     </modules>
   </component>
 </project>

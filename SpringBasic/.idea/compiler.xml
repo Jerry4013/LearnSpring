@@ -6,8 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="class010" />
+        <module name="class008" />
+        <module name="class007" />
         <module name="class005" />
+        <module name="class017" />
         <module name="class003" />
+        <module name="class015" />
         <module name="class014" />
         <module name="class013" />
       </profile>
@@ -15,16 +20,26 @@
     <bytecodeTargetLevel>
       <module name="class003" target="1.8" />
       <module name="class005" target="1.8" />
+      <module name="class007" target="1.8" />
+      <module name="class008" target="1.8" />
+      <module name="class010" target="1.8" />
       <module name="class013" target="1.8" />
       <module name="class014" target="1.8" />
+      <module name="class015" target="1.8" />
+      <module name="class017" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="class003" options="-parameters" />
       <module name="class005" options="-parameters" />
+      <module name="class007" options="-parameters" />
+      <module name="class008" options="-parameters" />
+      <module name="class010" options="-parameters" />
       <module name="class013" options="-parameters" />
       <module name="class014" options="-parameters" />
+      <module name="class015" options="-parameters" />
+      <module name="class017" options="-parameters" />
     </option>
   </component>
 </project>
