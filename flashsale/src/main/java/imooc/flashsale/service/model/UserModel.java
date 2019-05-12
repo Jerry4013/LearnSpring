@@ -1,18 +1,33 @@
 package imooc.flashsale.service.model;
 
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+
 /**
  * @author: Jingchao Zhang
  * @createdate: 2019/05/03
  **/
 public class UserModel {
     private Integer id;
+    @NotBlank(message = "User name cannot be empty.")
     private String name;
+
+    @NotNull(message = "gender cannot be empty.")
     private Byte gender;
+
+    @NotNull(message = "age cannot be empty.")
+    @Min(value = 0, message = "Age must be larger than 0.")
+    @Max(value = 150, message = "Age must be less than 150.")
     private Integer age;
-    private String telphone;
+
+    @NotBlank(message = "Telephone number cannot be empty.")
+    private String telephone;
     private String registerMode;
     private String thirdPartyId;
 
+    @NotBlank(message = "Password cannot be empty.")
     private String encryptPassword;
 
     public Integer getId() {
@@ -48,12 +63,12 @@ public class UserModel {
         return age;
     }
 
-    public String getTelphone() {
-        return telphone;
+    public String getTelephone() {
+        return telephone;
     }
 
-    public void setTelphone(String telphone) {
-        this.telphone = telphone;
+    public void setTelephone(String telephone) {
+        this.telephone = telephone;
     }
 
     public String getRegisterMode() {

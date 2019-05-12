@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c587d91-cbdb-40c5-9e01-6cf41602fe8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mathtest/demo.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,13 +14,13 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor>
-                <caret column="26" selection-start-column="26" selection-end-column="26" />
+              <first_editor relative-caret-position="48">
+                <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
               </first_editor>
               <second_editor />
             </state>
@@ -56,7 +54,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -64,15 +61,11 @@
               <item name="LearnSpring" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnSpring" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="LearnSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="mathtest" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -110,7 +103,9 @@
       <option name="presentableId" value="Default" />
       <updated>1556478308617</updated>
       <workItem from="1556478310379" duration="148000" />
-      <workItem from="1557082387629" duration="391000" />
+      <workItem from="1557082387629" duration="1005000" />
+      <workItem from="1557263644319" duration="162000" />
+      <workItem from="1557314477889" duration="502000" />
     </task>
     <task id="LOCAL-00001" summary="Remove angular client">
       <created>1556478420613</created>
@@ -119,17 +114,30 @@
       <option name="project" value="LOCAL" />
       <updated>1556478420613</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="demo gif">
+      <created>1557082803399</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557082803399</updated>
+    </task>
+    <task id="LOCAL-00003" summary="demo gif">
+      <created>1557083173915</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557083173915</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="539000" />
+    <option name="totallyTimeSpent" value="1817000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49695122" visible="true" weight="0.1557465" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49695122" visible="true" weight="0.16004297" />
       <window_info id="Structure" order="1" sideWeight="0.5030488" side_tool="true" weight="0.14930183" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -164,14 +172,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Remove angular client" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove angular client" />
+    <MESSAGE value="demo gif" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo gif" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor>
-            <caret column="26" selection-start-column="26" selection-end-column="26" />
+          <first_editor relative-caret-position="48">
+            <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
           </first_editor>
           <second_editor />
         </state>

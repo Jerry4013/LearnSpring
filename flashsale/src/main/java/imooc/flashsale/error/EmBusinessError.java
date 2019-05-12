@@ -11,7 +11,8 @@ public enum EmBusinessError implements CommonError{
     PARAMETER_VALIDATION_ERROR(10001, "Parameter is invalid"),
     UNKNOWN_ERROR(10002, "Unknown error"),
 
-    USER_NOT_EXIST(20001,"User does not exist.")
+    USER_NOT_EXIST(20001,"User does not exist."),
+    USER_LOGIN_FAIL(20002,"Telephone number or password incorrect.")
     ;
 
 
