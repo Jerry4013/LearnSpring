@@ -69,6 +69,7 @@
                 success:function (data) {
                     if (data.status === "success"){
                         alert("Login Success!");
+                        window.location.href = "listitem.html";
                     }else {
                         alert("Login failed." + data.data.errMsg);
                     }

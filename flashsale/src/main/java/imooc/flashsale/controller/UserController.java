@@ -18,10 +18,10 @@ import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Random;
-
+//@CrossOrigin(allowCredentials = "true",allowedHeaders = "*")
 @Controller("user")
 @RequestMapping("/user")
-@CrossOrigin(allowCredentials = "true",allowedHeaders = "*")
+@CrossOrigin(origins = {"*"}, allowCredentials = "true")
 public class UserController extends BaseController {
 
     @Autowired

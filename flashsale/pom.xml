@@ -101,7 +101,7 @@
                     <verbose>true</verbose>
 
                     <!--only overwrite for testing use!-->
-                    <overwrite>true</overwrite>
+                    <overwrite>false</overwrite>
                     <configurationFile>
                         src/main/resources/mybatis-generator.xml
                     </configurationFile>
