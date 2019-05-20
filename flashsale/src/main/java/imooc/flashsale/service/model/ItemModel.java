@@ -31,6 +31,9 @@ public class ItemModel {
     @NotBlank(message = "Product image cannot be empty")
     private String imgUrl;
 
+    //If promoModel is not null, then this item has some campaign that is coming or ongoing
+    private PromoModel promoModel;
+
     public Integer getId() {
         return id;
     }
@@ -85,5 +88,13 @@ public class ItemModel {
 
     public void setImgUrl(String imgUrl) {
         this.imgUrl = imgUrl;
+    }
+
+    public PromoModel getPromoModel() {
+        return promoModel;
+    }
+
+    public void setPromoModel(PromoModel promoModel) {
+        this.promoModel = promoModel;
     }
 }

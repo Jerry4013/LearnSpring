@@ -7,7 +7,9 @@ import imooc.flashsale.dataobject.ItemStockDO;
 import imooc.flashsale.error.BusinessException;
 import imooc.flashsale.error.EmBusinessError;
 import imooc.flashsale.service.ItemService;
+import imooc.flashsale.service.PromoService;
 import imooc.flashsale.service.model.ItemModel;
+import imooc.flashsale.service.model.PromoModel;
 import imooc.flashsale.validator.ValidationResult;
 import imooc.flashsale.validator.ValidatorImpl;
 import org.springframework.beans.BeanUtils;
@@ -31,6 +33,9 @@ public class ItemServiceImpl implements ItemService {
 
     @Autowired
     private ItemDOMapper itemDOMapper;
+
+    @Autowired
+    private PromoService promoService;
 
     @Autowired
     private ItemStockDOMapper itemStockDOMapper;
@@ -101,6 +106,12 @@ public class ItemServiceImpl implements ItemService {
         ItemStockDO itemStockDO = itemStockDOMapper.selectByItemId(itemDO.getId());
 
         ItemModel itemModel = convertModelFromDataObject(itemDO, itemStockDO);
+
+        //Get promotion info
+        PromoModel promoModel = promoService.getPromoByItemId(itemModel.getId());
+        if (promoModel != null && promoModel.getStatus() != 3) {
+            itemModel.setPromoModel(promoModel);
+        }
 
         return itemModel;
     }

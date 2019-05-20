@@ -2,6 +2,10 @@
 
 ![demo](/flashsale/demo.gif)
 
+## flash sale demo
+
+![demo](/flashsale/flashsale.gif)
+
 
 ## mathtest project demo
 
