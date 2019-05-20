@@ -14,10 +14,15 @@ public class OrderModel {
 
     private Integer itemId;
 
+    //If not null, then this order is a flash sale order.
+    private Integer promoId;
+
+    //If promoId is not null, then this price is a flash sale price.
     private BigDecimal itemPrice;
 
     private Integer amount;
 
+    //If promoId is not null, then this price is a flash sale price.
     private BigDecimal orderPrice;
 
     public String getId() {
@@ -66,5 +71,13 @@ public class OrderModel {
 
     public void setOrderPrice(BigDecimal orderPrice) {
         this.orderPrice = orderPrice;
+    }
+
+    public Integer getPromoId() {
+        return promoId;
+    }
+
+    public void setPromoId(Integer promoId) {
+        this.promoId = promoId;
     }
 }
