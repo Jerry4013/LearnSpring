@@ -6,7 +6,10 @@
 
 ![demo](/flashsale/flashsale.gif)
 
-
 ## mathtest project demo
 
 ![demo](/mathtest/demo.gif)
+
+## Air pollution project demo
+
+![demo](/airpollution/demo.gif)
