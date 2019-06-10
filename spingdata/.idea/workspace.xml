@@ -1,50 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39022c05-4271-4fb3-9be0-992bd2d52087" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spingdata.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/dao/StudentDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/dao/StudentDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/dao/StudentDAOSpringJdbcImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/domain/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/domain/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/repository/EmployeeCrudRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/repository/EmployeeJpaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/repository/EmployeeJpaSpecificationExecutorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/repository/EmployeePagingAndSoringRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/repository/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/util/JDBCUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/beans-new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/DataSourceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/SpringDataTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/dao/StudentDAOImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/dao/StudentDAOSpringJdbcImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/repository/EmployeeCrudRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/repository/EmployeeJpaRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/repository/EmployeeJpaSpecificationExecutorRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/repository/EmployeePagingAndSortingRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/repository/EmployeeRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/service/EmployeeServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/util/JDBCUtilTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootWebEvolved/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootWebEvolved/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootWebEvolved/src/main/java/com/imooc/aspect/HttpAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootWebEvolved/src/main/java/com/imooc/aspect/HttpAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootWebEvolved/src/main/java/com/imooc/utils/ResultUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootWebEvolved/src/main/java/com/imooc/utils/ResultUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringInAction/spring-in-action-5-samples/ch06/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringInAction/spring-in-action-5-samples/ch06/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../flashsale/src/main/java/imooc/flashsale/error/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../flashsale/src/main/java/imooc/flashsale/error/BusinessException.java" afterDir="false" />
-    </list>
+    <list default="true" id="39022c05-4271-4fb3-9be0-992bd2d52087" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -115,23 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/repository/EmployeeJpaSpecificationExecutorRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="15" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/repository/EmployeeJpaSpecificationExecutorRepositoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="336">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -380,7 +325,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/imooc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -526,8 +471,16 @@
       <workItem from="1559958451136" duration="4174000" />
       <workItem from="1560001504686" duration="7001000" />
       <workItem from="1560090223165" duration="12350000" />
-      <workItem from="1560165223157" duration="18992000" />
+      <workItem from="1560165223157" duration="19241000" />
     </task>
+    <task id="LOCAL-00001" summary="Spring data JPA">
+      <created>1560189555012</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560189555012</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -563,13 +516,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43531000" />
+    <option name="totallyTimeSpent" value="43780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49695122" visible="true" weight="0.24006444" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49695122" visible="true" weight="0.21160042" />
       <window_info id="Structure" order="1" sideWeight="0.5030488" side_tool="true" weight="0.14930183" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -607,6 +559,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Spring data JPA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring data JPA" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/util/JDBCUtilTest.java">
@@ -987,13 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/repository/EmployeeJpaSpecificationExecutorRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/repository/EmployeeJpaSpecificationExecutorRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1001,6 +950,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/repository/EmployeeJpaSpecificationExecutorRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

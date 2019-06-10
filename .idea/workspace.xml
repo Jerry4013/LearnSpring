@@ -3,6 +3,69 @@
   <component name="ChangeListManager">
     <list default="true" id="7c587d91-cbdb-40c5-9e01-6cf41602fe8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathtestsap/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathtestsap/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathtestsap/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathtestsap/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathtestsap/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathtestsap/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathtestsap/cloudspringbootsample.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathtestsap/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spingdata/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spingdata/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/CONTRIBUTING.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/NOTICE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/README.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/assembly/sources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/java/thymeleafexamples/gtvg/business/entities/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/java/thymeleafexamples/gtvg/business/entities/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/java/thymeleafexamples/gtvg/business/entities/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/java/thymeleafexamples/gtvg/business/entities/OrderLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/java/thymeleafexamples/gtvg/business/entities/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/java/thymeleafexamples/gtvg/business/entities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/java/thymeleafexamples/gtvg/business/entities/repositories/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/java/thymeleafexamples/gtvg/business/entities/repositories/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/java/thymeleafexamples/gtvg/business/entities/repositories/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/java/thymeleafexamples/gtvg/business/services/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/java/thymeleafexamples/gtvg/business/services/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/java/thymeleafexamples/gtvg/business/services/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/java/thymeleafexamples/gtvg/business/util/CalendarUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/java/thymeleafexamples/gtvg/web/application/GTVGApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/java/thymeleafexamples/gtvg/web/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/java/thymeleafexamples/gtvg/web/controller/IGTVGController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/java/thymeleafexamples/gtvg/web/controller/OrderDetailsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/java/thymeleafexamples/gtvg/web/controller/OrderListController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/java/thymeleafexamples/gtvg/web/controller/ProductCommentsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/java/thymeleafexamples/gtvg/web/controller/ProductListController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/java/thymeleafexamples/gtvg/web/controller/SubscribeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/java/thymeleafexamples/gtvg/web/controller/UserProfileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/java/thymeleafexamples/gtvg/web/filter/GTVGFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/webapp/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/webapp/WEB-INF/templates/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/webapp/WEB-INF/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/webapp/WEB-INF/templates/home.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/webapp/WEB-INF/templates/home_de.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/webapp/WEB-INF/templates/home_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/webapp/WEB-INF/templates/home_es.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/webapp/WEB-INF/templates/home_fr.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/webapp/WEB-INF/templates/home_gl.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/webapp/WEB-INF/templates/home_nl.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/webapp/WEB-INF/templates/home_pt.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/webapp/WEB-INF/templates/order/details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/webapp/WEB-INF/templates/order/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/webapp/WEB-INF/templates/product/comments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/webapp/WEB-INF/templates/product/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/webapp/WEB-INF/templates/product/list.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/webapp/WEB-INF/templates/subscribe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/webapp/WEB-INF/templates/subscribe.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/webapp/WEB-INF/templates/subscribe_es.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/webapp/WEB-INF/templates/userprofile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/webapp/css/gtvg.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleafExamples/src/main/webapp/images/gtvglogo.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +83,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="96">
-                <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+                <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -53,7 +116,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -61,15 +123,11 @@
               <item name="LearnSpring" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnSpring" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="LearnSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringBootWebEvolved" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -77,7 +135,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringBootWebEvolved" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -123,6 +181,7 @@
       <workItem from="1559746006411" duration="245000" />
       <workItem from="1559747183284" duration="1014000" />
       <workItem from="1559748707053" duration="430000" />
+      <workItem from="1560189770078" duration="401000" />
     </task>
     <task id="LOCAL-00001" summary="Remove angular client">
       <created>1556478420613</created>
@@ -177,12 +236,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5411000" />
+    <option name="totallyTimeSpent" value="5812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49695122" visible="true" weight="0.1707841" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49695122" visible="true" weight="0.2244898" />
       <window_info id="Structure" order="1" sideWeight="0.5030488" side_tool="true" weight="0.14930183" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -241,7 +300,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="96">
-            <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>
