@@ -4,7 +4,7 @@ package imooc.flashsale.error;
  * @author: Jingchao Zhang
  * @createdate: 2019/05/04
  **/
-public class BusinessException extends Exception implements CommonError {
+public class BusinessException extends RuntimeException implements CommonError {
 
     private CommonError commonError;
 
